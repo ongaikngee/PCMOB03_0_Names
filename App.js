@@ -9,7 +9,8 @@ export default function App() {
 
 	return (
 		<SafeAreaView>
-			<FlatList data={namesAsObjects} renderItem={renderName} keyExtractor={(item) => item.name} />
+      <FlatList data={namesAsObjects} renderItem={renderName} 
+      keyExtractor={(item) => item.name} />
 		</SafeAreaView>
 	);
 }
